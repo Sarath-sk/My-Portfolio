@@ -45,7 +45,6 @@ export default {
 
 .contact{
     padding: 5rem;
-    height: 100%;
 }
 
 h1{
@@ -66,7 +65,7 @@ section{
     display: flex;
     flex-direction: column;
     border-radius: 0.5rem;
-    margin: 0 10rem;
+    margin: 5rem 10rem;
     justify-content: center;
     align-content: center;
     height: 15rem;
