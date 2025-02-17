@@ -151,5 +151,18 @@ h4{
     border-radius: 0.4rem;
 }
 
+@media (max-width: 400px){
+    .about{
+        padding: 2rem;
+        margin-top: 4rem;
+    }
+
+    .items-container > div{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* align-items: center; */
+    }
+}
+
 
 </style>

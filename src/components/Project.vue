@@ -143,4 +143,42 @@ strong{
 h2{
     color: #00bbf0;
 }
+
+@media (max-width:1015px){
+    .container-item{
+        width: 25rem;
+        height: 20rem;
+    }
+}
+
+@media (max-width: 860px){
+    .container-item{
+        width: 20rem;
+        height: 35rem;
+    }
+}
+
+@media (max-width: 690px){
+    .container-item{
+        width: 25rem;
+        height: 26rem;
+    }
+
+    .projects-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
+
+@media (max-width: 415px){
+    .container-item{
+        width: 20rem;
+        height: 35rem;
+    }
+}
+
 </style>

@@ -98,9 +98,30 @@ h3{
     font-style: italic;
 }
 .experience{
-    padding: 5rem;
+    padding: 4rem;
 }
 h2{
     color: #72BAA9;
+    margin-top: 2rem;
+}
+
+@media (max-width: 990px){
+    section{
+        margin: 0 2rem;
+    }
+
+    .experience{
+        padding: 2rem;
+    }
+
+    h2{
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 450px){
+    .experience{
+        padding: 0.5rem;
+    }
 }
 </style>

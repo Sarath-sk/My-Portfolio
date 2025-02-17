@@ -33,15 +33,12 @@ export default {
     },
     data(){
         return{
-            menuVisible: false,
             currentYear: new Date().getFullYear(),
             currentTime: this.getCurrentTime()
         };
     },
     methods:{
-        toggleMenu() {
-            this.menuVisible = !this.menuVisible;
-        },
+        
         getCurrentTime(){
             const now = new Date()
             const hours = now.getHours()
@@ -76,6 +73,7 @@ export default {
 
 .home{
     margin-top: 4rem;
+    height: 100%;
 }
 
 h1{
@@ -90,7 +88,7 @@ h1{
 .data-container{
     background-color: #23486A;
     color: white;
-    padding: 4rem;
+    padding: 8rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -106,29 +104,22 @@ h1{
 
 
 
-
-
 @media (max-width: 900px){
     .q-dataitem{
-        margin: 0 10rem;
-    }
-
-    footer{
-        display: flex;
-        flex-direction: row;
-        gap: 0.2rem;
+        margin: 0 5rem;
     }
 }
 
 @media (max-width: 560px){
     .q-dataitem{
-        margin: 0 2rem;
+        margin: 0 0.5rem;
     }
-    footer{
-        display: flex;
-        flex-direction: row;
-        gap: 0.2rem;
-    }
+
 }
 
+@media (max-width:400px){
+    .data-container{
+        padding: 2rem;
+    }
+}
 </style>

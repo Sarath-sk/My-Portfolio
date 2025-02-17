@@ -19,16 +19,31 @@
 
             <nav v-if="menuVisible" class="navigation_mobile">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Experiences</li>
-                    <li>Projects</li>
-                    <li>GitHub</li>
-                    <li>Contact</li>
+                    <li><router-link to="/">Home</router-link></li>
+                    <li><router-link to="/about">About</router-link></li>
+                    <li><router-link to="/experience">Experiences</router-link></li>
+                    <li><router-link to="/projects">Projects</router-link></li>
+                    <li><router-link to="/github">GitHub</router-link></li>
+                    <li><router-link to="/contact">Contact</router-link></li>
                 </ul>
             </nav>
         </header>
 </template>
+
+<script>
+export default {
+    data(){
+        return{
+            menuVisible: false
+        }
+    },
+    methods:{
+        toggleMenu() {
+            this.menuVisible = !this.menuVisible;
+        }
+    }
+}
+</script>
 
 <style scoped>
 .user{
@@ -75,13 +90,25 @@ header{
     display: none;
 }
 
-@media (max-width: 660px){
+@media (max-width: 805px){
     nav.navigation{
         display: none;
     }
 
+    .navigation_mobile a{
+        text-decoration: none;
+    }
+
+
     #menuToggle{
         display: flex;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1.5rem;
     }
 
     .navigation_mobile{

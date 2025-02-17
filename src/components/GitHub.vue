@@ -104,4 +104,32 @@ h3{
     border-radius: 0.5rem;
 
 }
+
+@media (max-width: 1030px){
+  .github{
+    padding: 5rem;
+}
+
+.grid-container{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 0 5rem;
+    align-items: center;
+}
+}
+
+@media (max-width: 560px){
+  .grid-container{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 0 5rem;
+    align-items: center;
+}
+}
 </style>

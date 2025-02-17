@@ -56,4 +56,13 @@ svg{
     display: flex;
     gap: 1rem;
 }
+
+@media (max-width: 530px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+}
 </style>

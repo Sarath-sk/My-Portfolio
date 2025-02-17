@@ -65,7 +65,7 @@ section{
     display: flex;
     flex-direction: column;
     border-radius: 0.5rem;
-    margin: 0 10rem;
+    margin: 5rem 10rem;
     justify-content: center;
     align-content: center;
     height: 15rem;
@@ -77,5 +77,35 @@ button{
     width: 6rem;
     height: 2.5rem;
     font-weight: bold;
+}
+
+@media (max-width: 770px){
+    .contact-container{
+        margin: 0 2rem;
+    }
+    
+}
+
+@media (max-width: 470px){
+
+    .contact-container{
+        margin: 2rem 0.1rem;
+    }
+
+    
+}
+
+@media (max-width: 400px){
+
+    .contact-container{
+        margin: 2rem 0.1rem;
+    }
+
+    .contact{
+        margin-top: 4rem;
+        padding: 2rem;
+    }
+
+    
 }
 </style>
