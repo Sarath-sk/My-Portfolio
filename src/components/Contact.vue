@@ -45,6 +45,7 @@ export default {
 
 .contact{
     padding: 5rem;
+    height: 100%;
 }
 
 h1{
