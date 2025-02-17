@@ -91,7 +91,7 @@ h1{
 .data-container{
     background-color: #23486A;
     color: white;
-    padding: 4rem;
+    padding: 8rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
