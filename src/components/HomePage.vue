@@ -76,7 +76,7 @@ export default {
 
 .home{
     margin-top: 4rem;
-    height: 100%;
+    
 }
 
 h1{
