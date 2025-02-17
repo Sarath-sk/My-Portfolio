@@ -151,7 +151,7 @@ h4{
     border-radius: 0.4rem;
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
     .about{
         padding: 2rem;
         margin-top: 4rem;
@@ -160,7 +160,7 @@ h4{
     .items-container > div{
         display: grid;
         grid-template-columns: 1fr;
-        /* align-items: center; */
+        
     }
 }
 

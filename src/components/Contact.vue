@@ -95,7 +95,7 @@ button{
     
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px){
 
     .contact-container{
         margin: 2rem 0.1rem;
@@ -104,6 +104,7 @@ button{
     .contact{
         margin-top: 4rem;
         padding: 2rem;
+        height: 100vh;
     }
 
     

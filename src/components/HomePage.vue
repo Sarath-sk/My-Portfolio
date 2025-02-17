@@ -120,7 +120,16 @@ h1{
 
 }
 
-@media (max-width:400px){
+@media (max-width:420px){
+    .data-container{
+        padding: 2rem;
+    }
+    .home{
+        height: 100vh;
+    }
+}
+
+@media (max-width:350px){
     .data-container{
         padding: 2rem;
     }
