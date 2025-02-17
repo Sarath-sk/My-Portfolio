@@ -155,4 +155,13 @@ h1{
         height: 100vh;
     }
 }
+
+@media (max-width:1080px){
+    .data-container{
+        padding: 2rem;
+    }
+    .home{
+        height: 100vh;
+    }
+}
 </style>
