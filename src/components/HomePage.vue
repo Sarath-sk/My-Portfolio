@@ -133,5 +133,26 @@ h1{
     .data-container{
         padding: 2rem;
     }
+    .home{
+        height: 100vh;
+    }
+}
+
+@media (max-width:200px){
+    .data-container{
+        padding: 2rem;
+    }
+    .home{
+        height: 100vh;
+    }
+}
+
+@media (max-width:150px){
+    .data-container{
+        padding: 2rem;
+    }
+    .home{
+        height: 100vh;
+    }
 }
 </style>
