@@ -33,12 +33,15 @@ export default {
     },
     data(){
         return{
+            menuVisible: false,
             currentYear: new Date().getFullYear(),
             currentTime: this.getCurrentTime()
         };
     },
     methods:{
-        
+        toggleMenu() {
+            this.menuVisible = !this.menuVisible;
+        },
         getCurrentTime(){
             const now = new Date()
             const hours = now.getHours()
